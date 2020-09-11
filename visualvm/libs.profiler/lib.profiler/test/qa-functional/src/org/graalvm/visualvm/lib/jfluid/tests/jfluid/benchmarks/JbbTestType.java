@@ -85,7 +85,7 @@ public abstract class JbbTestType extends CommonProfilerTestCase {
         return null;
     }
 
-    protected void evalueateResults(int[] without, int[] with, int maxSlowdown) {
+    protected void evaluateResults(int[] without, int[] with, int maxSlowdown) {
         double[] diffs = new double[with.length];
 
         for (int i = 0; i < diffs.length; i++) {
@@ -196,7 +196,7 @@ public abstract class JbbTestType extends CommonProfilerTestCase {
             log("finish ****************************** " + getStatus());
 
             int[] res2 = checkResults(workdir);
-            evalueateResults(res1, res2, maxSlowdown);
+            evaluateResults(res1, res2, maxSlowdown);
         } catch (Exception ex) {
             log(ex);
             assertTrue("Exception thrown: " + ex.getMessage(), false);
