@@ -60,7 +60,7 @@ public abstract class MeasureDiffsTestCase extends CommonProfilerTestCase {
         //~ Instance fields ------------------------------------------------------------------------------------------------------
 
         double ideal;
-        double measalone;
+        double measuredAlone;
         double measprofiler;
         double profiled;
 
@@ -75,7 +75,7 @@ public abstract class MeasureDiffsTestCase extends CommonProfilerTestCase {
 
         public void setMeasuredAlone(String val) {
             try {
-                measalone = Double.parseDouble(val);
+                measuredAlone = Double.parseDouble(val);
             } catch (NumberFormatException ex) {
             }
         }
@@ -92,7 +92,7 @@ public abstract class MeasureDiffsTestCase extends CommonProfilerTestCase {
         }
 
         public String toString() {
-            return String.valueOf(ideal) + ";" + String.valueOf(measalone) + ";" + String.valueOf(measprofiler) + ";"
+            return String.valueOf(ideal) + ";" + String.valueOf(measuredAlone) + ";" + String.valueOf(measprofiler) + ";"
                    + String.valueOf(profiled);
         }
     }
