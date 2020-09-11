@@ -163,7 +163,7 @@ public class DynamicClassInfo extends ClassInfo {
                     int attrNameIdx = getU2(methodInfo, newOffset); newOffset+=2;
                     int attrLen = getU4(methodInfo, newOffset); newOffset+=4;
 
-                    if (attrNameIdx==localVaribaleTableCPindex){
+                    if (attrNameIdx==localVariableTableCPindex){
                         modifiedLocalVariableTableOffsets[idx] = newOffset+2;
                         break;
                     }
@@ -187,7 +187,7 @@ public class DynamicClassInfo extends ClassInfo {
                     int attrNameIdx = getU2(methodInfo, newOffset); newOffset+=2;
                     int attrLen = getU4(methodInfo, newOffset); newOffset+=4;
 
-                    if (attrNameIdx==localVaribaleTypeTableCPindex){
+                    if (attrNameIdx==localVariableTypeTableCPindex){
                         modifiedLocalVariableTypeTableOffsets[idx] = newOffset+2;
                         break;
                     }
