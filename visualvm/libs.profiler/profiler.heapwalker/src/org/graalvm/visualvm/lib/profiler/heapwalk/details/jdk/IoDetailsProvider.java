@@ -67,7 +67,7 @@ public final class IoDetailsProvider extends DetailsProvider.Basic {
                 return DetailsUtils.getInstanceFieldString(instance, "name"); // NOI18N
             case RAF_MASK: // RandomAccessFile
                 return DetailsUtils.getInstanceFieldString(instance, "path"); // NOI18N
-            case FIS_MASK: // FileInputStrea
+            case FIS_MASK: // FileInputStream
                 return DetailsUtils.getInstanceFieldString(instance, "path"); // NOI18N
             case FOS_MASK: // FileOutputStream
                 return DetailsUtils.getInstanceFieldString(instance, "path"); // NOI18N
