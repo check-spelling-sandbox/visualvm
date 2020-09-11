@@ -1643,7 +1643,7 @@ function minmax(array, code) {
  * Returns the maximum element of the array/iterator/enumeration
  *
  * @param array input array/iterator/enumeration that is iterated
- * @param code (optional) comparision expression or function
+ * @param code (optional) comparison expression or function
  *        by default numerical maximum is computed.
  */
 function max(array, code) {
@@ -1659,7 +1659,7 @@ function max(array, code) {
  * Returns the minimum element of the array/iterator/enumeration
  *
  * @param array input array/iterator/enumeration that is iterated
- * @param code (optional) comparision expression or function
+ * @param code (optional) comparison expression or function
  *        by default numerical minimum is computed.
  */
 function min(array, code) {
