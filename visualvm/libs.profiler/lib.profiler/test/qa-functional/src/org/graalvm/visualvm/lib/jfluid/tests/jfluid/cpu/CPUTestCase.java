@@ -391,7 +391,7 @@ public abstract class CPUTestCase extends CommonProfilerTestCase {
     }
 
     /**
-     * check reulsts periodically - live results
+     * check results periodically - live results
      */
     protected void startCPUTest(ProfilerEngineSettings settings, String[] measuredMethodsFilter, long checkDelay, long maxDelay) {
         CPUCallGraphBuilder builder = new CPUCallGraphBuilder();
