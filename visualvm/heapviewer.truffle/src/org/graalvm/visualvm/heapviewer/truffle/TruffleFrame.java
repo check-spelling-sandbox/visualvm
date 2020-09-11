@@ -203,7 +203,7 @@ public class TruffleFrame {
             Instance frameSlot = frameSlots[i];
             Instance nameInst = (Instance) frameSlot.getValueOfField("identifier"); // NOI18N
             String name = getDetails(nameInst);
-            Type type = getVauleType(frameSlot);
+            Type type = getValueType(frameSlot);
             String primitiveLocal = primitiveLocals != null ? primitiveLocals.get(i) : null;
             FieldValue fieldVal = creatField(truffleFrame, type, name, locals.get(i), primitiveLocal, defaultValue);
 
@@ -258,7 +258,7 @@ public class TruffleFrame {
         return names;
     }
 
-    private Type getVauleType(Instance frameSlot) {
+    private Type getValueType(Instance frameSlot) {
         Instance kind = (Instance) frameSlot.getValueOfField("kind"); // NOI18N
         return getTypeFromByte((Byte) kind.getValueOfField("tag"));     // NOI18N
     }
