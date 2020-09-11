@@ -105,7 +105,7 @@ public interface LoadGenPlugin {
     void start(String scriptPath, Callback callback);
 
     /**
-     * Stops the last successfuly started load generator process
+     * Stops the last successfully started load generator process
      */
     void stop();
 
