@@ -65,7 +65,7 @@ public class TooManyBooleans extends IteratingRule {
         }
 
         count++;
-        booleans.add(Utils.printClass(getContext(), getContext().getRootIncommingString(in)), new Histogram.Entry(in.getSize()));
+        booleans.add(Utils.printClass(getContext(), getContext().getRootIncomingString(in)), new Histogram.Entry(in.getSize()));
     }
 
     protected @Override void prepareRule(MemoryLint context) {
