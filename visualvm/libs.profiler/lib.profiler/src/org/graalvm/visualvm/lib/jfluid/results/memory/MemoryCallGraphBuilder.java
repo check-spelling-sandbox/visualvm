@@ -737,7 +737,7 @@ public class MemoryCallGraphBuilder extends BaseCallGraphBuilder implements Memo
 
             if (parentNode != null) {
                 Object parChildren = parentNode.children;
-                assert (parChildren != null); // parent will always have chilren
+                assert (parChildren != null); // parent will always have children
 
                 if (parChildren instanceof RuntimeMemoryCCTNode) {
                     if (parChildren == curNode) {
