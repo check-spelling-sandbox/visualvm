@@ -146,7 +146,7 @@ public abstract class ProfilingPointsTestCase extends CommonProfilerTestCase {
     //        return points;
     //    }
     //    /*
-    //    protected void startPPTest(ProfilerEngineSettings settings, String crClasse,
+    //    protected void startPPTest(ProfilerEngineSettings settings, String crClasses,
     //            String crMethod, String crSignature, long idealTime, double diffPercent) {
     //        //create runner
     //     
@@ -155,7 +155,7 @@ public abstract class ProfilingPointsTestCase extends CommonProfilerTestCase {
     //        try {
     //            runner.readSavedCalibrationData();
     //            //create selection
-    //            SourceCodeSelection select = new SourceCodeSelection(crClasse, crMethod, crSignature);
+    //            SourceCodeSelection select = new SourceCodeSelection(crClasses, crMethod, crSignature);
     //            runner.getProfilerClient().initiateCodeRegionInstrumentation(select);
     //     
     //            //measureCR(runner, idealTime, diffPercent);
