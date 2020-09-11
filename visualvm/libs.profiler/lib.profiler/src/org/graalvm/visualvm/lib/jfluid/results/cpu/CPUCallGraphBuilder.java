@@ -283,7 +283,7 @@ public class CPUCallGraphBuilder extends BaseCallGraphBuilder implements CPUProf
                 ti.pop();
                 oneMoreNode = ti.peek();
             }
-            // Servelt node must go with a method node; so close them together
+            // Servlet node must go with a method node; so close them together
             if (oneMoreNode instanceof ServletRequestCPUCCTNode) {
                 //        oneMoreNode.addNCalls(oldNode.getNCalls());
                 //        oneMoreNode.addNetTime0(oldNode.getNetTime0());
@@ -332,7 +332,7 @@ public class CPUCallGraphBuilder extends BaseCallGraphBuilder implements CPUProf
                 ti.pop();
                 oneMoreNode = ti.peek();
             }
-            // Servelt node must go with a method node; so close them together
+            // Servlet node must go with a method node; so close them together
             if (oneMoreNode instanceof ServletRequestCPUCCTNode) {
                 //        oneMoreNode.addNCalls(oldNode.getNCalls());
                 //        oneMoreNode.addNetTime0(oldNode.getNetTime0());
