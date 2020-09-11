@@ -197,7 +197,7 @@ public final class LogRecords {
                     currentEx = new FakeException(new EnumMap<>(values));
                 }
             } catch (IllegalArgumentException ex) {
-                LOG.log(Level.FINE, "Uknown tag " + qName, ex);
+                LOG.log(Level.FINE, "Unknown tag " + qName, ex);
                 current = null;
             }
             chars = new StringBuilder();
