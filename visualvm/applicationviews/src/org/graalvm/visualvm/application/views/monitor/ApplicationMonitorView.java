@@ -641,7 +641,7 @@ class ApplicationMonitorView extends DataSourceView {
         public void refresh(ApplicationMonitorModel model) {
             if (threadsMonitoringSupported) {
                 long totalThreads   = model.getTotalThreads();
-                long daemonThreads  = model.getDeamonThreads();
+                long daemonThreads  = model.getDaemonThreads();
                 long peakThreads    = model.getPeakThreads();
                 long startedThreads = model.getStartedThreads();
 
