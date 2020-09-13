@@ -126,7 +126,7 @@ ALLCONFS=visualvm.exe visualvm64.exe
 	@echo "    also clean subprojects."
 	@echo "Target 'clobber' will remove all built files from all configurations and,"
 	@echo "    unless 'SUB=no', also from subprojects."
-	@echo "Target 'all' will will build all configurations and, unless 'SUB=no',"
+	@echo "Target 'all' will build all configurations and, unless 'SUB=no',"
 	@echo "    also build subprojects."
 	@echo "Target 'help' prints this message."
 	@echo ""
