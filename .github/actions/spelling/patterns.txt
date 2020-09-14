@@ -1,0 +1,29 @@
+# opcodes
+opc_[a-z_]+
+# git index header
+index [0-9a-z]{10,}\.\.[0-9a-z]{10,} \d+
+# hex digits including css/html color classes:
+(?:[\\0][xX]|[uU]\+|#)[0-9a-fA-FgGrR]{2,}[uU]?[lL]{0,2}\b
+# ignore long runs of a single character:
+\b([A-Za-z])\1{3,}\b
+# long strings
+[a-z]{26,}
+[A-Z]{26,}
+# sha-1
+"[0-9a-f]{40}"
+REV=[0-9a-f]{40}
+# CRC
+CRC32=[0-9a-f]{8}
+#
+publicKeyToken="[0-9a-f]{16}"
+# command-line flags
+-J-D
+(?:^|[^a-z])-D
+ -f
+# 2D
+2D
+# DnD
+DnD
+#
+"GyMwWDdFEaHkKhmsSzZ"
+"THREADnameTOsetupCOLUMNwidth"
