@@ -326,7 +326,7 @@ public class Instrumentor implements CommonConstants {
 
         // It may happen that if profiling is modified during intensive class loading, some class load message from
         // server may be already in the pipeline and eventually get here despite the change, and before the relevant
-        // Method Scaner is initialized. This check should prevent problems caused by this inconsistency.
+        // Method Scanner is initialized. This check should prevent problems caused by this inconsistency.
         if (ms == null) {
             return new InstrumentMethodGroupResponse(null);
         }
@@ -375,7 +375,7 @@ public class Instrumentor implements CommonConstants {
         //System.out.println("--------- Received class load event for class " + cmd.getClassName());
         // It may happen that if profiling is modified during intensive class loading, some class load message from
         // server may be already in the pipeline and eventually get here despite the change, and before the relevant
-        // Method Scaner is initialized. This check should prevent problems caused by this inconsistency.
+        // Method Scanner is initialized. This check should prevent problems caused by this inconsistency.
         if (crms == null) {
             return new InstrumentMethodGroupResponse(null);
         }
@@ -393,7 +393,7 @@ public class Instrumentor implements CommonConstants {
         //System.out.println("--------- Received class load event for class " + cmd.getClassName());
         // It may happen that if profiling is modified during intensive class loading, some class load message from
         // server may be already in the pipeline and eventually get here despite the change, and before the relevant
-        // Method Scaner is initialized. This check should prevent problems caused by this inconsistency.
+        // Method Scanner is initialized. This check should prevent problems caused by this inconsistency.
         if (oms == null) {
             return new InstrumentMethodGroupResponse(null);
         }
