@@ -1,7 +1,7 @@
 UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
 
 See Terms of Use <https://www.unicode.org/copyright.html>
-for definitions of Unicode Inc.Õs Data Files and Software.
+for definitions of Unicode Inc.ï¿½s Data Files and Software.
 
 NOTICE TO USER: Carefully read the following legal agreement.
 BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.'S
@@ -13,7 +13,7 @@ THE DATA FILES OR SOFTWARE.
 
 COPYRIGHT AND PERMISSION NOTICE
 
-Copyright © 1991-2022 Unicode, Inc. All rights reserved.
+Copyright ï¿½ 1991-2022 Unicode, Inc. All rights reserved.
 Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
 
 Permission is hereby granted, free of charge, to any person obtaining
@@ -392,7 +392,7 @@ Database section 7.
  # 7.  Database Ownership
  #
  #    The TZ database itself is not an IETF Contribution or an IETF
- #    document.  Rather it is a pre-existing and regularly updated work
+ #    document.  Rather it is a preexisting and regularly updated work
  #    that is in the public domain, and is intended to remain in the
  #    public domain.  Therefore, BCPs 78 [RFC5378] and 79 [RFC3979] do
  #    not apply to the TZ Database or contributions that individuals make
@@ -442,8 +442,8 @@ File: aclocal.m4 (only for ICU4C)
 Section: pkg.m4 - Macros to locate and utilise pkg-config.
 
 
-Copyright © 2004 Scott James Remnant <scott@netsplit.com>.
-Copyright © 2012-2015 Dan Nicholson <dbn.lists@gmail.com>
+Copyright ï¿½ 2004 Scott James Remnant <scott@netsplit.com>.
+Copyright ï¿½ 2012-2015 Dan Nicholson <dbn.lists@gmail.com>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
