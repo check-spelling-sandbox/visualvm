@@ -1974,7 +1974,7 @@ public class ProfilerClient implements CommonConstants {
         // received as a result of the forced dump (as opposed to the normal one due to buffer overflow), the data should
         // be processed synchronously to avoid e.g. a "no results" report when there are already some.
 
-        // update [ian] In case of remote profiling we actually can not process the results in concurrently,
+        // update [ian] In case of remote profiling we actually cannot process the results in concurrently,
         // since there would suddenly be 2 pieces of code that simultaneously read from the socket stream
         // leading to issue 59660: JFluid: error writing collected data to the socket
         // see http://www.netbeans.org/issues/show_bug.cgi?id=59660 for details

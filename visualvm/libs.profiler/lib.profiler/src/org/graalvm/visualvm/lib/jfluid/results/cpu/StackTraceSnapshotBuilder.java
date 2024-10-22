@@ -481,7 +481,7 @@ public class StackTraceSnapshotBuilder {
     private void processDiffs(int threadId, StackTraceElement[] oldElements, StackTraceElement[] newElements, long timestamp, long threadCpuTime, long timediff, Thread.State oldState, Thread.State newState) throws IllegalStateException {
         assert newState != Thread.State.NEW : "Invalid thread state " + newState.name() + " for taking a stack trace"; // just to be sure
         if (oldState == Thread.State.TERMINATED && newState != Thread.State.TERMINATED) {
-            throw new IllegalStateException("Thread has already been set to " + Thread.State.TERMINATED.name() + " - stack trace can not be taken");
+            throw new IllegalStateException("Thread has already been set to " + Thread.State.TERMINATED.name() + " - stack trace cannot be taken");
         }
         //        switch (oldState) {
         //            case NEW: {

@@ -329,7 +329,7 @@ public class ProfilerServer extends Thread implements CommonConstants {
     // Default EN messages initialized here, will be replaced by localized messages in initLocalizedResources()
     private static ResourceBundle messages;
     private static String ENTER_TO_SHUTDOWN_MSG = "Press ENTER to shut down the target JVM..."; // NOI18N
-    private static String MAIN_CLASS_NOT_PUBLIC_MSG = "Main class {0} is not public.\nProfiler can not start it"; // NOI18N
+    private static String MAIN_CLASS_NOT_PUBLIC_MSG = "Main class {0} is not public.\nProfiler cannot start it"; // NOI18N
     private static String INCORRECT_MAIN_MODIFIERS_MSG = "Method {0}.main(String args[]) has incorrect modifiers"; // NOI18N
     private static String UNEXPECTED_EXCEPTION_MSG = "Target application threw an unexpected exception: {0}"; // NOI18N
     private static String ELAPSED_TIME_MSG = "Main application thread elapsed time: {0} ms."; // NOI18N
@@ -1002,7 +1002,7 @@ public class ProfilerServer extends Thread implements CommonConstants {
 
         // For the reasons I don't quite understand, if the main class is not public, then somewhere (when we attempt to invoke the
         // main method using reflection?) we get the following: "java.lang.IllegalAccessException: Class org.graalvm.visualvm.lib.jfluid.server.ProfilerServer
-        // can not access a member of class Test with modifiers "public static"". Thus we have to run the below preemptive check. Hope this is not
+        // cannot access a member of class Test with modifiers "public static"". Thus we have to run the below preemptive check. Hope this is not
         // a problem for the majority of our users...
         if (!Modifier.isPublic(targetMainClass.getModifiers())) {
             startupException = new IllegalAccessException(MessageFormat.format(MAIN_CLASS_NOT_PUBLIC_MSG, new Object[] { targetMainClass }));

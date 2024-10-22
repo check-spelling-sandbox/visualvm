@@ -155,7 +155,7 @@ public class PlainFormattableMethodName implements Formattable {
                             returnType = returnType.replace('/', '.') + arrayIndicator.toString(); // NOI18N
                         }
                     } catch (StringIndexOutOfBoundsException e) {
-                        LOGGER.log(Level.INFO, "Can not format return type \"{0}\"", sig.substring(idx1));
+                        LOGGER.log(Level.INFO, "Cannot format return type \"{0}\"", sig.substring(idx1));
                     }
                 } else {
                     // constructor or no end parenthesis
@@ -227,7 +227,7 @@ public class PlainFormattableMethodName implements Formattable {
                             }
                         }
                     } catch (StringIndexOutOfBoundsException e) {
-                        LOGGER.log(Level.INFO, "Can not format param list \"{0}\"", paramsString);
+                        LOGGER.log(Level.INFO, "Cannot format param list \"{0}\"", paramsString);
                     }
 
                     params = paramsBuf.toString();

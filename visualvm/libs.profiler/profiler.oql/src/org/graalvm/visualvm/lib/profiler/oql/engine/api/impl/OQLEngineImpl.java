@@ -116,7 +116,7 @@ public class OQLEngineImpl {
 
     @NbBundle.Messages({
         "ERROR_NO_SELECT_CLAUSE=query syntax error: no 'select' clause",
-        "ERROR_EMPTY_SELECT=query syntax error: 'select' expression can not be empty",
+        "ERROR_EMPTY_SELECT=query syntax error: 'select' expression cannot be empty",
         "ERROR_INSTANCEOF_NO_CLASSNAME=no class name after 'instanceof'",
         "ERROR_FROM_NO_CLASSNAME=query syntax error: class name must follow 'from'",
         "ERROR_NO_IDENTIFIER=query syntax error: identifier should follow class name",

@@ -59,7 +59,7 @@ public class ApplicationType extends org.graalvm.visualvm.application.type.Appli
         try {
             DEFAULT_ICON = ImageIO.read(new URL("nbres:/org/graalvm/visualvm/application/resources/application.png")); // NOI18N
         } catch (Exception e) {
-            Logger.getLogger(ApplicationType.class.getName()).log(Level.SEVERE, "Can not initialize default icon", e);
+            Logger.getLogger(ApplicationType.class.getName()).log(Level.SEVERE, "Cannot initialize default icon", e);
             DEFAULT_ICON = null;
             throw new RuntimeException(e);
             // something is seriously broken - can't continue -> shut the whole application down

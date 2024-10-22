@@ -60,7 +60,7 @@ final public class OQLQueryRepository {
     private FileObject getRepositoryRoot() {
         FileObject root = FileUtil.getConfigFile("NBProfiler/Config/OQL"); // NOI18N
         if (root == null) {
-            throw new IllegalStateException("can not find OQL queries repository"); // NOI18N
+            throw new IllegalStateException("cannot find OQL queries repository"); // NOI18N
         }
         return root;
     }

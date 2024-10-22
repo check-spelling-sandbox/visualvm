@@ -90,7 +90,7 @@ ALLCONFS=visualvm.exe visualvm64.exe
 	@if [ ! -f nbproject/Makefile-${CONF}.mk ]; \
 	then \
 	    echo ""; \
-	    echo "Error: can not find the makefile for configuration '${CONF}' in project ${PROJECTNAME}"; \
+	    echo "Error: cannot find the makefile for configuration '${CONF}' in project ${PROJECTNAME}"; \
 	    echo "See 'make help' for details."; \
 	    echo "Current directory: " `pwd`; \
 	    echo ""; \
