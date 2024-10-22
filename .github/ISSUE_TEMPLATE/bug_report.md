@@ -30,7 +30,7 @@ via VisualVM | About VisualVM | Logfile on macOS
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. MacOS]
+ - OS: [e.g. macOS]
  - JDK version [JDK 1.8.0_181]
  - Version [e.g. 2.0]
 

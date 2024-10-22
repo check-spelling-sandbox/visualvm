@@ -166,7 +166,7 @@ async function forPath(visualVMPath: string, interactive: boolean = false): Prom
                 isGraalVM = true;
             }
         } else {
-            logUtils.logInfo(`[visualvm] VisualVM executable found in MacOS application: ${mvisualVMExecutable}`);
+            logUtils.logInfo(`[visualvm] VisualVM executable found in macOS application: ${mvisualVMExecutable}`);
             isMacOsApp = true;
         }
     } else {
