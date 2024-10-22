@@ -124,7 +124,7 @@ abstract class SortedObjectsBuffer<T> {
         
         if (maxObjectValue != null) {
             int comp = compare(value, maxObjectValue);
-            if (comp >= 0) { /*System.err.println(">>>     skipping " + object + " because higher than " + maxObjectValue);*/ return; }
+            if (comp >= 0) { /*System.err.println(">>>     skipping " + object + " because greater than " + maxObjectValue);*/ return; }
         }
         currentIndex++;
         elements[currentIndex] = createWrapper(object, value);
