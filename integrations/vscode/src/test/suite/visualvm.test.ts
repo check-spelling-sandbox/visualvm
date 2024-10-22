@@ -256,9 +256,9 @@ suite('VisualVm Suite Tests', function () {
         assert.strictEqual(parameter, `--stop-jfr ${testPid.toString()}`, 'Test jfr Recording Stop failed');
     });
 
-    test('Test vmArg Id', () => {
+    test('Test vmArg ID', () => {
         const parameter = vmArgId('Java_ID');
-        assert.strictEqual(parameter, `-Dvisualvm.id=Java_ID`, 'Test vmArg Id failed');
+        assert.strictEqual(parameter, `-Dvisualvm.id=Java_ID`, 'Test vmArg ID failed');
     });
 
     test('Test vmArg Display Name', () => {
