@@ -25,7 +25,7 @@ import java.io.Reader;
 public interface Lexer {
 
     /**
-     * This will be called to reset the the lexer, generally whenever a
+     * This will be called to reset the lexer, generally whenever a
      * document is changed
      * @param reader
      */
