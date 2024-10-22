@@ -603,7 +603,7 @@ public final class UIUtils {
      * and fixes using custom border for JDK 1.5 &amp; XP L&amp;F
      */
     public static void fixButtonUI(AbstractButton button) {
-        // Doesn't seem to be necessary any more, conflicts with Jigsaw
+        // Doesn't seem to be necessary anymore, conflicts with Jigsaw
     }
 
     public static boolean hasOnlyLeafs(JTree tree, Object node) {
