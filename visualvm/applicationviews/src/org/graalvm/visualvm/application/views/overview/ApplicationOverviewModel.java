@@ -233,8 +233,8 @@ final class ApplicationOverviewModel {
             if (jvmFlags == null || jvmFlags.isEmpty()) jvmFlags = NbBundle.getMessage(ApplicationOverviewModel.class, "LBL_none"); // NOI18N
 
             oomeEnabled = jvm.isDumpOnOOMEnabled() ? NbBundle.getMessage(ApplicationOverviewModel.class, "LBL_enabled") : NbBundle.getMessage(ApplicationOverviewModel.class, "LBL_disabled");  // NOI18N
-            String jvmArgss = jvm.getJvmArgs();
-            if (jvmArgss != null) jvmArgs = formatJVMArgs(jvmArgss);
+            String jvmArgs = jvm.getJvmArgs();
+            if (jvmArgs != null) jvmArgs = formatJVMArgs(jvmArgs);
         }
         
         if (systemPropertiesSupported) {
