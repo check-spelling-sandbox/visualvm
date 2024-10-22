@@ -41,9 +41,9 @@ public class MapCompletionAction extends TextAction implements SyntaxAction {
             int dot = target.getCaretPosition();
             Token token = sDoc.getTokenAt(dot);
             if (token != null) {
-                String abbriv = ActionUtils.getTokenStringAt(sDoc, dot);
-                if (completions.containsKey(abbriv)) {
-                    String completed = completions.get(abbriv);
+                String abbrev = ActionUtils.getTokenStringAt(sDoc, dot);
+                if (completions.containsKey(abbrev)) {
+                    String completed = completions.get(abbrev);
                     if (completed.indexOf('|') >= 0) {
                         int ofst = completed.length() - completed.indexOf('|') - 1;
                         sDoc.replaceToken(token, completed.replace("|", ""));
