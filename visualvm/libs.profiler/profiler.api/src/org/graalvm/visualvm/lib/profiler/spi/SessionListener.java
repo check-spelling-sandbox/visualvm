@@ -28,7 +28,7 @@ import org.graalvm.visualvm.lib.common.ProfilingSettings;
 import org.openide.util.Lookup;
 
 /**
- * A helper SPI interface for plugging in to the profiling session lifecycle
+ * A helper SPI interface for plugging into the profiling session lifecycle
  *
  * @author Jaroslav Bachorik
  */
