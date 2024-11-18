@@ -157,7 +157,7 @@ RegexCharacter  = [^\r\n\/]
 
   /* Groovy reserved words not in Java */
   "as"                           |
-  "asssert"                      | 
+  "assert"                       | 
   "def"                          |
   "in"                           |
   "threadsafe"                   |
