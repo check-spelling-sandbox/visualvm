@@ -41,7 +41,7 @@ import org.graalvm.visualvm.lib.jfluid.wireprotocol.EventBufferDumpedCommand;
 /**
  * Management of the shared-memory "event buffer" file, into which TA instrumentation writes rough profiling
  * data, and which is processed here at the client side.
- * So far it's deliberately allstatic. Can be made more object-style, but before doing that, check its current
+ * So far it's deliberately all static. Can be made more object-style, but before doing that, check its current
  * usage in ProfilerClient and, as a superclass, in CPUCallGraphBuilder etc.
  *
  * @author Misha Dmitirev
