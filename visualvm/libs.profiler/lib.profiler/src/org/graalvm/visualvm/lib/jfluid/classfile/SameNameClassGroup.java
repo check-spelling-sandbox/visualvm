@@ -34,7 +34,7 @@ import java.util.List;
  * plus the functionality to browse this group and check for compatible classes.
  *
  * @author Tomas Hurka
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  */
 public class SameNameClassGroup {
     //~ Instance fields ----------------------------------------------------------------------------------------------------------

@@ -44,7 +44,7 @@ import org.graalvm.visualvm.lib.jfluid.instrumentation.JavaClassConstants;
  * for the whole class. Concrete subclasses of this class may choose to simply store this byte array, or retrieve
  * it e.g. from disk on demand.
  *
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  * @author Tomas Hurka
  */
 public abstract class ClassInfo extends BaseClassInfo implements JavaClassConstants, CommonConstants {

@@ -37,7 +37,7 @@ import org.graalvm.visualvm.lib.jfluid.results.RuntimeCCTNode;
 
 
 /**
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  * @author Jaroslav Bachorik
  */
 public class MemoryCallGraphBuilder extends BaseCallGraphBuilder implements MemoryProfilingResultsListener, MemoryCCTProvider {

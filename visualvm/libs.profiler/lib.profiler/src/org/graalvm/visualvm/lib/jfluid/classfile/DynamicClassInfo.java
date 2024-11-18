@@ -34,7 +34,7 @@ import java.util.ArrayList;
  * bits used for proper instrumentation state accounting in JFluid.
  *
  * @author Tomas Hurka
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  */
 public class DynamicClassInfo extends ClassInfo {
     //~ Instance fields ----------------------------------------------------------------------------------------------------------

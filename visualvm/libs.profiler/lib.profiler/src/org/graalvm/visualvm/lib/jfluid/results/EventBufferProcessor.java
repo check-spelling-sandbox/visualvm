@@ -44,7 +44,7 @@ import org.graalvm.visualvm.lib.jfluid.wireprotocol.EventBufferDumpedCommand;
  * So far it's deliberately all static. Can be made more object-style, but before doing that, check its current
  * usage in ProfilerClient and, as a superclass, in CPUCallGraphBuilder etc.
  *
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  * @author Tomas Hurka
  */
 public class EventBufferProcessor implements CommonConstants {

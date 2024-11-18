@@ -44,7 +44,7 @@ import org.graalvm.visualvm.lib.jfluid.utils.MiscUtils;
  * over these classes.
  *
  * @author Tomas Hurka
- * @author Misha Dmitirev
+ * @author Misha Dmitriev
  */
 public class ClassRepository implements CommonConstants {
     //~ Inner Classes ------------------------------------------------------------------------------------------------------------
