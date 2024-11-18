@@ -680,7 +680,7 @@ public class CPUCCTContainer {
      * Most of the complexity of the code is due to handling of the intermediate "from" nodes.
      */
     private void addReversePath() {
-        PrestimeCPUCCTNodeFree curNode = null; // This is effectively a node above the root node - which is non-existent
+        PrestimeCPUCCTNodeFree curNode = null; // This is effectively a node above the root node - which is nonexistent
         int stackTopIdx = nodeStackPtr - 1;
 
         for (int i = stackTopIdx; i >= 0; i--) {

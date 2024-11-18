@@ -606,7 +606,7 @@ public class JdbcGraphBuilder extends BaseCallGraphBuilder implements CPUProfili
      */
     private RuntimeMemoryCCTNode processStackTrace(int selectId, int[] methodIds) {
         if (selectId >= stacksForSelects.length) {
-            LOGGER.severe("Received stack for non existent select Id: " + (int) selectId + ", current length: " + stacksForSelects.length); // NOI18N
+            LOGGER.severe("Received stack for nonexistent select Id: " + (int) selectId + ", current length: " + stacksForSelects.length); // NOI18N
             return null;
         }
 
