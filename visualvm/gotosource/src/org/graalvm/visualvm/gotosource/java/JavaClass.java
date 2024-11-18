@@ -238,7 +238,7 @@ final class JavaClass {
 //////                        System.err.println(">>> reading brackes at |" + source.substring(startOffset, startOffset + 15));
                         int[] paramsOffsets = JavaSourceUtils.getBlockBounds(source, startOffset, '(', ')'); // NOI18N
                         
-//                        if (paramsOffsets[1] - paramsOffsets[0] >= JavaSourceUtils.SHORTEST_ANNONYMOUS_LENGTH) {
+//                        if (paramsOffsets[1] - paramsOffsets[0] >= JavaSourceUtils.SHORTEST_ANONYMOUS_LENGTH) {
 //                            System.err.println(">>> ------------ STEP IN ----------------------------------");
 //                            System.err.println(source.substring(paramsOffsets[0] + 1, paramsOffsets[1]));
 //                            System.err.println(">>> .......................................................");
@@ -267,7 +267,7 @@ final class JavaClass {
                             startOffset = bodyOffsets[1] + 1;
                         }
                         
-                        if (paramsOffsets[1] - paramsOffsets[0] >= JavaSourceUtils.SHORTEST_ANNONYMOUS_LENGTH) {
+                        if (paramsOffsets[1] - paramsOffsets[0] >= JavaSourceUtils.SHORTEST_ANONYMOUS_LENGTH) {
 //////                            System.err.println(">>> ------------ STEP IN ----------------------------------");
                             System.err.println(source.substring(paramsOffsets[0] + 1, paramsOffsets[1]));
 //////                            System.err.println(">>> .......................................................");
