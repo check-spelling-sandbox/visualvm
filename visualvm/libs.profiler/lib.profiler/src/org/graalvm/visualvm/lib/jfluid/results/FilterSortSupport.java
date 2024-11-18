@@ -54,7 +54,7 @@ public final class FilterSortSupport implements CommonConstants {
                 return !nodeName.toLowerCase().contains(filter);
             case FILTER_REGEXP:
                 try {
-                    return nodeName.matches(filter); // case sensitive!
+                    return nodeName.matches(filter); // case-sensitive!
                 } catch (java.util.regex.PatternSyntaxException e) {
                     return false;
                 }

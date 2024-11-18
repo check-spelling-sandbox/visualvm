@@ -319,7 +319,7 @@ public abstract class FlatProfileContainer {
     }
 
     private boolean passedFilter(String value, String filter, int type) {
-//        // Case sensitive comparison:
+//        // Case-sensitive comparison:
 //        /*switch (type) {
 //           case CommonConstants.FILTER_STARTS_WITH:
 //             return value.startsWith(filter);
@@ -348,7 +348,7 @@ public abstract class FlatProfileContainer {
 ////                return value.equalsIgnoreCase(filter); // case-insensitive equals
 //            case CommonConstants.FILTER_REGEXP:
 //                try {
-//                    return value.matches(filter); //  case sensitive!
+//                    return value.matches(filter); //  case-sensitive!
 //                } catch (java.util.regex.PatternSyntaxException e) {
 //                    return false;
 //                }
