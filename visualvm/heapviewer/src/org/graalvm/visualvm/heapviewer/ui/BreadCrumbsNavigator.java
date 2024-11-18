@@ -54,7 +54,7 @@ import org.openide.util.NbBundle;
 
 /**
  *
- * @author JiriSedlacek
+ * @author Jiri Sedlacek
  */
 @NbBundle.Messages({
     "BreadCrumbsNavigator_Pin=Pin",
